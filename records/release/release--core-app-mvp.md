@@ -1,9 +1,6 @@
 ---
-id: release:core-app-mvp
-datasetId: dataset:product-tracker
 typeId: release
-createdAt: 2025-12-30T12:00:00Z
-updatedAt: 2025-12-30T12:00:00Z
+recordId: core-app-mvp
 fields:
   name: Core App MVP
   projectRefs:

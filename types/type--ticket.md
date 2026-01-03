@@ -1,11 +1,6 @@
 ---
-id: type:ticket
-datasetId: dataset:product-tracker
-typeId: sys:type
-createdAt: 2025-12-01T00:00:00Z
-updatedAt: 2025-12-01T00:00:00Z
+typeId: ticket
 fields:
-  recordTypeId: ticket
   displayName: Ticket
   pluralName: Tickets
   icon: check-square

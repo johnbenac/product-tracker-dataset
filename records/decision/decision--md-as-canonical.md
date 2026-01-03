@@ -1,16 +1,13 @@
 ---
-id: decision:md-as-canonical
-datasetId: dataset:product-tracker
 typeId: decision
-createdAt: 2025-12-12T09:00:00Z
-updatedAt: 2025-12-27T09:00:00Z
+recordId: md-as-canonical
 fields:
   title: "Markdown repositories are canonical"
   status: accepted
   date: 2025-12-12
-  project: project:core-app
+  project: "[[project:core-app]]"
   relatedTickets:
-    - ticket:wiki-links
+    - "[[ticket:wiki-links]]"
 ---
 ## Context
 We need import/export round-trips that preserve human intent and diffs.

@@ -1,11 +1,6 @@
 ---
-id: type:person
-datasetId: dataset:product-tracker
-typeId: sys:type
-createdAt: 2025-12-01T00:00:00Z
-updatedAt: 2025-12-01T00:00:00Z
+typeId: person
 fields:
-  recordTypeId: person
   displayName: Person
   pluralName: People
   icon: user

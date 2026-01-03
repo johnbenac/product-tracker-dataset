@@ -1,22 +1,19 @@
 ---
-id: ticket:wiki-links
-datasetId: dataset:product-tracker
 typeId: ticket
-createdAt: 2025-12-10T17:02:11Z
-updatedAt: 2025-12-27T08:19:44Z
+recordId: wiki-links
 fields:
   title: "Parse [[wiki-links]] as relationships"
   status: in_progress
   priority: high
   project: "[[project:core-app]]"
-  assignee: "person:johnny"
+  assignee: "[[person:johnny]]"
   tags:
-    - "tag:relationships"
+    - "[[tag:relationships]]"
     - "[[tag:import]]"
   blockedBy:
-    - "ticket:md-frontmatter-required"
+    - "[[ticket:md-frontmatter-required]]"
   links:
-    - "decision:md-as-canonical"
+    - "[[decision:md-as-canonical]]"
 ---
 We want Obsidian-style links to behave like first-class relationships.
 

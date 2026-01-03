@@ -1,9 +1,6 @@
 ---
-id: doc:readme
-datasetId: dataset:product-tracker
-typeId: sys:doc
-createdAt: 2025-12-28T00:00:00Z
-updatedAt: 2025-12-28T00:00:00Z
+typeId: doc
+recordId: readme
 fields:
   title: "Product Tracker Dataset README"
 ---

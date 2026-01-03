@@ -1,11 +1,6 @@
 ---
-id: type:decision
-datasetId: dataset:product-tracker
-typeId: sys:type
-createdAt: 2025-12-01T00:00:00Z
-updatedAt: 2025-12-01T00:00:00Z
+typeId: decision
 fields:
-  recordTypeId: decision
   displayName: Decision
   pluralName: Decisions
   icon: file-text

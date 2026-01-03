@@ -1,9 +1,6 @@
 ---
-id: tag:import
-datasetId: dataset:product-tracker
 typeId: tag
-createdAt: 2025-12-03T12:10:00Z
-updatedAt: 2025-12-27T12:10:00Z
+recordId: import
 fields:
   name: import
 ---

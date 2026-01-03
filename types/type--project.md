@@ -1,11 +1,6 @@
 ---
-id: type:project
-datasetId: dataset:product-tracker
-typeId: sys:type
-createdAt: 2025-12-01T00:00:00Z
-updatedAt: 2025-12-01T00:00:00Z
+typeId: project
 fields:
-  recordTypeId: project
   displayName: Project
   pluralName: Projects
   icon: folder
