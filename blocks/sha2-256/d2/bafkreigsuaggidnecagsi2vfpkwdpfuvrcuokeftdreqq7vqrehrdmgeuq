@@ -1,0 +1,36 @@
+// Graphdown Dataset Plugin: gd.handshake
+// This file is stored as a block object and referenced from a plugin record.
+// It is intentionally dependency-free.
+
+export default async function activate(ctx) {
+  const pluginId = ctx?.pluginId ?? 'gd.handshake';
+  const api = ctx?.api;
+
+  // Basic “digital handshake” — prove we can call the Runtime API.
+  const apiVersion = api?.apiVersion;
+  const capabilities = api?.capabilities;
+
+  let typeIds = [];
+  try {
+    if (api && typeof api.listTypeIds === 'function') {
+      typeIds = await api.listTypeIds();
+    }
+  } catch (err) {
+    // Keep the handshake resilient; surface errors but don't crash the host.
+    console.warn(`[Graphdown plugin] ${pluginId}: listTypeIds() failed`, err);
+  }
+
+  console.log(`[Graphdown plugin] ${pluginId} activated`, {
+    apiVersion,
+    capabilities,
+    typeCount: typeIds.length,
+    typeIds,
+  });
+
+  // Return a tiny structured value in case the host wants it.
+  return {
+    ok: true,
+    pluginId,
+    apiVersion,
+  };
+}
